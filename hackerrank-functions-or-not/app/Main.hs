@@ -25,3 +25,4 @@ main = do
 --  print cases
 --  print $ map (\pares -> if (esFuncion pares) then "YES" else "NO") cases
   mapM_ (printf "%s\n") (map (\pares -> if (esFuncion pares) then "YES" else "NO") cases)
+
